@@ -13,9 +13,9 @@ int Player::count = 0;
 int main()
 {
 	Player p1;
-	cout << Player::count << " ";
+	cout << Player::count << " "; //1
 	Player p2;
-	cout << Player::count << " ";
+	cout << Player::count << " "; //2
 
 	return 0;
 }
