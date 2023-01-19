@@ -13,6 +13,7 @@ int Player::count = 0;
 int main()
 {
 	Player p1;
+	// p1.count
 	cout << Player::count << " "; //1
 	Player p2;
 	cout << Player::count << " "; //2
