@@ -15,7 +15,7 @@ int Player::count = 0;
 int main()
 {
 	Player p1, p2;
-	cout << Player::getCount();
+	cout << Player::getCount(); // 2
 
 	return 0;
 }
