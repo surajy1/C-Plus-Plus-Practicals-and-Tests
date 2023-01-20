@@ -23,7 +23,7 @@ Box::Box(double length, double width, double height)
 	cout << "Box constructor 1 called.\n";
 }
 
-// Member function definition
+// Delegating Constructor
 Box::Box(double side) : Box{side, side, side}
 {
 	cout << "Box constructor 2 called.\n";
