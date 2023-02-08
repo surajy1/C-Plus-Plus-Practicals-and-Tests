@@ -1,4 +1,4 @@
-// count_if
+// find_if
 
 #include <iostream>
 #include <algorithm>
