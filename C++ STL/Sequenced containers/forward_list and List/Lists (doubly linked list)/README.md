@@ -1,4 +1,4 @@
-### Time complexities of forward_list functions
+### Time complexities of `list` functions
 
 #### O(1)
 + `front()`
