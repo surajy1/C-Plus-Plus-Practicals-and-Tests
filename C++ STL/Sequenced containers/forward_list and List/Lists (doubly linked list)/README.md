@@ -1,6 +1,6 @@
 ### Time complexities of forward_list functions
 
-## O(1)
+#### O(1)
 + `front()`
 + `back()`
 + `size()`
@@ -11,3 +11,11 @@
 + `pop_front()`
 + `push_back()`
 + `pop_back()`
+
+#### O(n)
++ `reverse()`
++ `unique()`
++ `remove()`
+
+#### O(n log n)
++ `sort()`
