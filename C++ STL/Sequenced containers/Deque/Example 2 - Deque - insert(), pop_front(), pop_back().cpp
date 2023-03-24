@@ -14,7 +14,7 @@ int main() {
 	// dq = {20, 15, 30, 5, 12}
 	dq.pop_back();
 	// dq = {20, 15, 30, 5}
-	cout << dq.size();
+	cout << dq.size(); // 4
 
 	return 0;
 }
