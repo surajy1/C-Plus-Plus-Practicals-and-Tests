@@ -8,7 +8,7 @@
 	+ `push_back()`
 	+ `pop_back()`
 
-### Time complexities of `stack` functions
+### Time complexities of `stack` functions:
 #### O(1)
 + `push()`
 + `pop()`
