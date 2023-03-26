@@ -31,6 +31,8 @@ void stockSpan(int arr[], int n) {
 	}
 }
 
+// TC: O(2*n)
+
 int main() {
 
 	int arr[10] = {15, 13, 12, 14, 16, 8, 6, 4, 10, 30};
