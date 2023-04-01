@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-    Purchasing maximum items
+    Find K most frequent elements
     Input 1: arr[] = {10, 5, 20, 5, 10, 10, 30}, k = 2
     Output 1: 10 5
 
