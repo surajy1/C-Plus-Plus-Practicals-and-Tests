@@ -45,6 +45,7 @@ int main() {
     int k = 3;
 
     printKMostFreq(arr, 8, k);
+    // 20 30 40
 
     return 0;
 }
