@@ -3,7 +3,8 @@
 #include<stack>
 using namespace std;
 
-/*
+/*	https://leetcode.com/problems/valid-parentheses
+
 	Given a string of paranthesis ({,},(,),[ and ]).
 	We need to check if this string is balanced or not.
 
