@@ -35,6 +35,7 @@ int main() {
 
     map<int, int> mpp;
     // map<key_type, value_type>
+    // for characters: map<char, int>
 
     // pre-compute
     for (int i = 0; i < n; i++) {
