@@ -24,7 +24,7 @@ Output:
 0
 1
 */
-
+// Time complexity of map(storing and fetching) = (log N), for all test case including best, average and worst
 int main() {
     int n;
     cin >> n;
