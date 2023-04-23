@@ -1,6 +1,6 @@
 # Strings
 ## Defining string Objects
-1. No initializer (or empty braces, {}):
+1. No initializer (or empty braces, `{}`):
 ```cpp
 std::string empty; // The string ""
 ```
