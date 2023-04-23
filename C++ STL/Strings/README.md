@@ -1,8 +1,9 @@
 # Strings
 ## Defining string Objects
 1. No initializer (or empty braces, {}):
-
-`std::string empty; // The string ""`
+```cpp
+std::string empty; // The string ""
+```
 
 2. An initializer containing a `string` literal:
 `std::string proverb{ "Consistency is the key to success." }; // The given literal`
