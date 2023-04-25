@@ -23,7 +23,7 @@ Output:
 0
 1
 */
-// Time complexity of map(storing and fetching):
+// Time complexity of unordered map(storing and fetching):
 // = O(1) for average and best cases
 // = O(N) for worst cases
 // where N is the number of elements in the map
