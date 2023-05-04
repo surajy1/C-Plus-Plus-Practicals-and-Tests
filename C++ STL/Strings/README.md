@@ -36,3 +36,44 @@ std::string string{ "Consistency is the key to success" };
 std::string part_string{ string, 19 }; // "key to success"
 std::string part_literal{"Consistency is the key to success", 18}; // "Consistency is the"
 ```
+
+## Operations with String Objects
+### Concatenating Strings
+```cpp
+string first;								// Stores the first name
+string second;								// Stores the second name
+
+cout << "Enter your first name: ";
+cin >> first;								// Read first name
+
+cout << "Enter your second name: ";
+cin >> second;								// Read second name
+
+string sentence = "Your full name is ";		// Create basic Sentence
+sentence += first + " " + second + ".";		// Augment with names
+
+cout << sentence << endl;					// Output the sentence
+cout << "The string contains "
+     << sentence.length() << " characters."
+     << endl;
+```
+Output:
+```
+Enter your first name: John
+Enter your second name: Doe
+Your full name is John Doe.
+The string contains 27 characters.
+
+```
+
+> The `append()` function of `string` object is an alternative to the `+=` operator.
+```cpp
+sentence.append(first).append(" ").append(second).append(".");
+```
+
+> The `append()` function is more flexible than `+=` because it allows, for instance, the concatenation of substrings, or repeated characters:
+```cpp
+std::string compliment("~~~ What a beautiful name... ~~~");
+sentence.append(compliment, 3, 22); // Appends " What a beautiful name", starting from 3rd index, append 22 characters
+sentence.append(3, '!'); // Appends "!!!"
+```
