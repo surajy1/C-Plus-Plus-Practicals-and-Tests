@@ -74,6 +74,6 @@ sentence.append(first).append(" ").append(second).append(".");
 > The `append()` function is more flexible than `+=` because it allows, for instance, the concatenation of substrings, or repeated characters:
 ```cpp
 std::string compliment("~~~ What a beautiful name... ~~~");
-sentence.append(compliment, 3, 22); // Appends " What a beautiful name", starting from 3rd index, append 22 characters
+sentence.append(compliment, 3, 22); // Appends " What a beautiful name", starting from index = 3 (4th position), append 22 characters
 sentence.append(3, '!'); // Appends "!!!"
 ```
